@@ -22,7 +22,7 @@ const conexao = mysql.createConnection({
 })
 
 conexao.connect((erro) => {
-    if (erro){
+    if (erro) {
         return console.log(erro)
     }
 
