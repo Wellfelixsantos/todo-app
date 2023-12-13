@@ -30,7 +30,7 @@ function excluirTarefa(id) {
         },
         body: JSON.stringify({ id })
     })
-}
+ }
 
 function alterarTema() {
     const tema = localStorage.getItem("tema")
